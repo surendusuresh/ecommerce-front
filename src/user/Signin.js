@@ -44,16 +44,16 @@ const Signin = () => {
 
 
     const signInForm = () => (
-        <form>
+        <form style={{width: '50rem'}} onSubmit={clickSubmit}>
             <div className="form-group">
                 <label className="text-muted">Email</label>
-                <input onChange={handleChange('email')} value={email} type="email" className="form-control" />
+                <input onChange={handleChange('email')} value={email} type="email" className="form-control" required />
             </div>
             <div className="form-group">
                 <label className="text-muted">Password</label>
-                <input onChange={handleChange('password')} value={password} type="password" className="form-control" />
+                <input onChange={handleChange('password')} value={password} type="password" className="form-control" required />
             </div>
-            <button onClick={clickSubmit} className="btn btn-primary">Submit</button>
+            <button  className="btn btn-primary">Submit</button>
         </form>
     )
 

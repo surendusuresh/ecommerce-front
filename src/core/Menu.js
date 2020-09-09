@@ -41,7 +41,7 @@ const Menu = ({ history }) => (
             )}
 
             {!isAuthenticated() && (
-                <Fragment>
+                <Fragment >
                     <li className="nav-item">
                         <Link className="nav-link" style={isActive(history, '/signin')} to='/signin'>Signin</Link>
                     </li>

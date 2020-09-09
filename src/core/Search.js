@@ -48,7 +48,7 @@ const Search = () => {
     }
 
     const handleChange = (name) => event => {
-        setData({ ...data, [name]: event.target.value, searched: false })
+        setData({ ...data, [name]: event.target.value, searched: false, results: [] })
     }
 
     const searchMessage = (searched, results) => {

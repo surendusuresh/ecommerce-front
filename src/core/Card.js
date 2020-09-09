@@ -95,7 +95,7 @@ const Card = ({
     }
 
     return (
-        <div className="card">
+        <div className="card ml-4">
             <div className="card-header name">{product.name}</div>
             <div className="card-body">
                 {shouldRedirect(redirect)}

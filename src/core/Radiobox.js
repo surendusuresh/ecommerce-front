@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from 'react'
+import React, { useState } from 'react'
 
 const Radiobox = ({ prices, handleFilters }) => {
 

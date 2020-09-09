@@ -44,7 +44,7 @@ const Dashboard = () => {
     }
 
     const userInfo = () => (
-        <div className="card mb-5">
+        <div className="card mb-5" style={{width: '50rem'}}>
             <h3 className="card-header">User Information</h3>
             <ul className="list-group">
                 <li className="list-group-item">{name}</li>
@@ -56,7 +56,7 @@ const Dashboard = () => {
 
     const purchaseHistory = history => {
         return (
-            <div className="card mb-5">
+            <div className="card mb-5" style={{width: '50rem'}}>
                 <h3 className="card-header">Purchase history</h3>
                 <ul className="list-group">
                     <li className="list-group-item">

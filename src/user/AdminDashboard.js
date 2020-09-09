@@ -9,7 +9,7 @@ const AdminDashboard = () => {
 
     const adminLinks = () => {
         return (
-            <div className="card">
+            <div className="card" >
                 <h4 className="card-header">Admin Links</h4>
                 <ul className="list-group">
                     <li className="list-group-item">
@@ -30,7 +30,7 @@ const AdminDashboard = () => {
     }
 
     const adminInfo = () => (
-        <div className="card mb-5">
+        <div className="card mb-5" style={{width: '50rem'}}>
             <h3 className="card-header">User Information</h3>
             <ul className="list-group">
                 <li className="list-group-item">{name}</li>

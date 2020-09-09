@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Layout from '../core/Layout'
 import { isAuthenticated } from '../auth/index'
-import { Link, Redirect } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 import { read, update, updateUser } from './apiUser'
 
 
